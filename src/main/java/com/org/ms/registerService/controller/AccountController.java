@@ -19,4 +19,8 @@ public class AccountController {
 	public ResponseEntity<String> createAccount(@RequestBody Account account) {
 		return null;
 	}
+	@RequestMapping(value="/deleteAcc", method = RequestMethod.DELETE)
+	public  ResponseEntity<String> deleteAccount(long accountId) {
+		return null;
+	}
 }
