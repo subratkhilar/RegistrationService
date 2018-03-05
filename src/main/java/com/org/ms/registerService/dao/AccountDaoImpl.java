@@ -2,8 +2,10 @@ package com.org.ms.registerService.dao;
 
 import java.util.List;
 
-import com.org.ms.registerService.bean.Account;
+import org.springframework.stereotype.Repository;
 
+import com.org.ms.registerService.bean.Account;
+@Repository("accountDao")
 public class AccountDaoImpl implements AccountDao {
 
 	@Override
