@@ -1,4 +1,4 @@
-package com.org.ms.RegisterService;
+package com.org.ms.registerService.service;
 
 import java.util.LinkedHashMap;
 
