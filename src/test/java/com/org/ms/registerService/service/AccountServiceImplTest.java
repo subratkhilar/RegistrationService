@@ -17,7 +17,7 @@ import java.util.List;
 
 import com.org.ms.registerService.bean.Account;
 import com.org.ms.registerService.dao.AccountDao;
-
+//Account service test
 @RunWith(MockitoJUnitRunner.class)
 public class AccountServiceImplTest {
 	@Mock
@@ -50,7 +50,7 @@ public class AccountServiceImplTest {
 		accService.editAccount(account);
 		doNothing().when(accountDao).editAccount(account);
 	}
-
+//getAccountbId
 	@Test
 	public void testGetAccountById() {
 		when(accountDao.getAccountById(account.getAccountid())).thenReturn(account);
